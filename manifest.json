@@ -1,0 +1,28 @@
+{
+
+	"manifest_version": 2,
+	"name": "idx-search",
+	"version": "0.0.1",
+	"author": "morketsmerke.net",
+
+	"description": "Search engine for searx.morketsmerke.net/searxng. This search engine is added to preinstalled firefox in immudex (GNU/Linux distribution).",
+	
+	"applications": {
+		"gecko": {
+			"id": "xf0r3m@gmail.com"
+		}
+	},
+
+	"icons": {
+		"64": "icons/logo.png"
+	},
+	
+	"chrome_settings_overrides": {
+		"search_provider": {
+			"name": "searx.morketsmerke.net",
+			"search_url": "https://searx.morketsmerke.net/searxng/?q={searchTerms}&categories=general&language=pl-PL",
+			"keyword": "searx",
+			"favicon_url": "https://searx.morketsmerke.net/searxng/static/themes/simple/img/favicon.png"
+		}
+	}
+}
