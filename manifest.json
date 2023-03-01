@@ -2,10 +2,10 @@
 
 	"manifest_version": 2,
 	"name": "idx-search",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"author": "morketsmerke.org",
 
-	"description": "Search engine for searx.morketsmerke.net/searxng. This search engine is added to preinstalled firefox in immudex (GNU/Linux distribution).",
+	"description": "Search engine for searx.morketsmerke.org/searxng. This search engine is added to preinstalled firefox in immudex (GNU/Linux distribution).",
 	
 	"applications": {
 		"gecko": {
