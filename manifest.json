@@ -7,7 +7,7 @@
 
 	"description": "Search engine for searx.morketsmerke.org/searxng. This search engine is added to preinstalled firefox in immudex (GNU/Linux distribution).",
 	
-	"applications": {
+	"browser_specific_settings": {
 		"gecko": {
 			"id": "xf0r3m@gmail.com"
 		}
